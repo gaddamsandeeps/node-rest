@@ -1,0 +1,14 @@
+#accordion a span.title {
+    float: left;
+    display: block;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+#accordion a span.ui-icon {
+    position: static;   
+    height: 20px;
+    margin-top: 0px; 
+    margin-top: 3px;
+}
+#accordion h3 a .ui-icon {float:right}

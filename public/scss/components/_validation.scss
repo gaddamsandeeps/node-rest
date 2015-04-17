@@ -1,0 +1,14 @@
+.error-class{
+	clear:both;
+	color: red;
+	font-size: 11px;
+	margin: 0 0 15px 0;
+}
+.error-class .error-content:empty {
+  display: none;
+  border:  solid 2px red;
+}
+
+.row.error-field input, .row.error-field select{
+  border: 1px solid #B20E11;
+}

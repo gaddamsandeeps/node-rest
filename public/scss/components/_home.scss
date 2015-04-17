@@ -1,0 +1,142 @@
+header.home {
+  background: #f0f2f4 ;
+  border-bottom: solid 1px #e2e2e2;
+  padding: 0;
+}
+header.home .phone{
+  margin: 8px 0 4px 0;
+}
+.logo {
+  padding: 20px 0;
+}
+.register-signin ul {
+  margin: 0;
+  float: right;
+}
+.register-signin ul li {
+  float: left;
+  list-style: none;
+}
+.register-signin ul li a{
+  display: inline-block;
+}
+.register-signin ul li a:hover {
+  color: #000;
+}
+.register-signin ul li:first-child {
+  padding: 4px 15px 6px 0;
+  border-right: solid 1px #5d5959 ;
+}
+.register, .signin, .site-view {
+  background: #7b8587;
+  padding: 8px 20px 8px;
+  line-height: 20px;
+  color: #fff;
+  font-size: 13px;  
+  border-right: solid 1px #5d5959 ;
+}
+.post-issue {
+  background: #efd303;
+  padding: 8px 25px;
+  margin: 10px 0 0 0;
+  color: #000000;
+  font-family: opensans-semibold;
+  display: inline-block;
+}
+.home-navigation {
+  background: #346972 ;
+}
+body .home-navigation .top-bar-section li:not(.has-form) a:not(.button) {
+  background: #346972;
+}
+.img-border {
+  border: solid 8px #ffffff;
+  box-shadow: 0px 0px 6px #666;
+  -moz-box-shadow: 0px 0px 6px #666;
+  -webkit-box-shadow: 0px 0px 6px #666;
+}
+.activities {
+  background: #edecec;
+  padding: 50px 0;
+  margin: 30px 0 25px;
+  border: solid 1px #e0e0e0;
+}
+.banner {
+  margin: 0 0 25px 0;
+}
+.news p {
+  padding: 0 0 20px 0;
+  margin: 0;
+}
+.news p label {
+  color: #666;
+}
+.news p a{
+  text-decoration: underline;
+  display: block;
+}
+.opinion-poll {
+  font-size: 13px;
+  border-bottom: solid 1px #999999;
+  padding: 0 0 25px 0;
+}
+.opinion-poll label.error{
+  color: #a40000;
+  margin: 0 0 15px 0; 
+}
+.opinion-poll label input{
+  margin-right: 12px;
+}
+.opinion-poll .choose{
+  margin: 10px 0 0 25px;
+  background: #efd303;
+  padding: 8px 40px;
+  color: #000000;
+  font-family: opensans-semibold;
+  border: none;
+}
+.subscribe {
+  font-size: 14px;
+  padding: 25px 0 0 0;
+}
+.subscribe-btn {
+  background: url(../images/subscribe-btn.jpg) no-repeat;
+  width: 45px;
+  height: 36px;
+  border-bottom: none;
+} 
+
+
+
+/* ============ Foundation Overrides ================= */
+.padding-none {
+  padding: 0;
+}
+.top-bar {
+  background: none;
+}
+.top-bar-section ul li{
+  background: #0074b7 no-repeat center bottom;
+}
+.top-bar-section ul li > a {
+  font-family: 'OpenSans-Regular'
+}
+/*Website: Kesineni Srinivas.
+  Development Started : 18th March 2015.
+  Developer: Vanava Raju Adabala. 
+  Stack: Mobile optimization using Foundation Frame work. */
+body .navigation .top-bar-section ul li:hover{
+  background: url(../images/menu-active.png) no-repeat center bottom !important;
+}
+body .navigation .top-bar-section ul li.active {
+  background: url(../images/menu-active.png) no-repeat center bottom !important;
+}
+/*body .navigation .top-bar-section ul li.active:hover {
+  background: url(../images/menu-active.png) no-repeat center bottom !important;
+}*/
+body .navigation .top-bar-section ul li:last-child a{ 
+  padding-right: 0;
+}
+body .navigation .top-bar-section li:not(.has-form) a:not(.button) {
+  background: none;
+}
